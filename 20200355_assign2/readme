@@ -1,0 +1,14 @@
+Name: Jihwan Shin
+Student ID: 20200355
+
+No it is not possible to call assert to verify the destination memory is large enough
+It is impossible to know the memory size of a pointer, 
+and strcopy only knows the information about the pointers.
+However if you store that information in an allocator, the problem can be solved.
+
+I only used pointer notation to implement part1.
+
+It took me about 5 days. 
+It took me long because I was confused about how '*' works, 
+and thought it only indicated zero or more of the same repeated characters.
+After figuring out this problem, it took me about 3 hours to implement part2.

@@ -1,0 +1,13 @@
+Name: Jihwan Shin
+Assignment Number: 3
+
+Arrays are easier to implement, and use less memory than hash tables.
+However, they are slow when inserting and searching.
+Hash tables are faster when inserting and searching than arrays.
+However, they are trickier to implement and uses more memory.
+
+I have implemented hash table expansion in 
+int RegisterCustomer(DB_T d, const char *id, constchar *name, const int purchase)
+using an if statement.
+
+It took me 3-4 days. Searching the cause for memory leaks took a long time.
